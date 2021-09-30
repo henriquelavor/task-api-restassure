@@ -5,9 +5,10 @@
 	<groupId>com.henriquelavor.tasks</groupId>
 	<artifactId>task-api-rest-assure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<properties>
-		<java.version>11</java.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -22,8 +23,8 @@
 			<artifactId>rest-assured</artifactId>
 			<version>4.3.0</version>
 		</dependency>
-		
-		
+
+
 
 	</dependencies>
 </project>
