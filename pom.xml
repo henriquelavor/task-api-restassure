@@ -5,6 +5,10 @@
 	<groupId>com.henriquelavor.tasks</groupId>
 	<artifactId>task-api-rest-assure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -18,6 +22,8 @@
 			<artifactId>rest-assured</artifactId>
 			<version>4.3.0</version>
 		</dependency>
+		
+		
 
 	</dependencies>
 </project>
